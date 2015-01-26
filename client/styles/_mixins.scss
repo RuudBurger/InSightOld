@@ -1,0 +1,52 @@
+@import "susy";
+@import "compass/utilities/general/clearfix";
+
+$link-color: #19a5ff;
+$link-color-hover: darken($link-color, 20%);
+$header-height: 60px;
+$content-padding: 40px;
+
+$susy: (
+	columns: 12,
+	gutters: 10px/60px,
+	global-box-sizing: border-box
+);
+
+$cubic-quint: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+$cubic-back: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+
+$mq-phone: 320px !default;
+$mq-phablet: 480px !default;
+$mq-tablet: 768px !default;
+$mq-desktop: 1024px !default;
+$mq-desktop-plus: 1280px !default;
+
+@mixin media-phone {
+	@media (max-width : $mq-phone) {
+		@content;
+	}
+}
+
+@mixin media-phablet {
+	@media (max-width : $mq-phablet) {
+		@content;
+	}
+}
+
+@mixin media-tablet {
+	@media (max-width : $mq-tablet) {
+		@content;
+	}
+}
+
+@mixin media-desktop {
+	@media (max-width : $mq-desktop) {
+		@content;
+	}
+}
+
+@mixin media-desktop-plus {
+	@media (max-width : $mq-desktop-plus) {
+		@content;
+	}
+}

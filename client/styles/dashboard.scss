@@ -1,0 +1,20 @@
+@import '_mixins';
+
+.dashboard {
+
+    .current {
+        @include span(6);
+        margin-bottom: 15px;
+    }
+
+    .high_low {
+        @include span(6 last);
+    }
+
+    .last_24h {
+        clear: both;
+        margin-bottom: 15px;
+        height: 200px;
+    }
+
+}

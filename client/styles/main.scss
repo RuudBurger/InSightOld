@@ -1,0 +1,43 @@
+@import '_mixins';
+@import '_normalize';
+
+body {
+	background: #f1f1f1;
+	font: 16px/120% Raleway, Helvetica, Arial, sans-serif;
+	color: #333;
+	height: 100%;
+	overflow: hidden;
+	overflow-y: scroll;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+textarea, input, select {
+	font: 16px/120% Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: $link-color;
+	text-decoration: underline;
+	cursor: pointer;
+	transition: all 300ms;
+
+	&:hover {
+		color: $link-color-hover;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	margin: 30px auto;
+	@include container(1280px);
+
+	.inner {
+		position: relative;
+		padding: $content-padding;
+	}
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<title>Insight</title>
+		<meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<!--<link rel="shortcut icon" href="/favicon.ico" />-->
+
+		<!-- build:css(.tmp) styles/main.css -->
+		<link rel="stylesheet" href="/styles/fonts.css" />
+        <link rel="stylesheet" href="/styles/main.css" />
+        <link rel="stylesheet" href="/styles/dashboard.css" />
+		<link rel="stylesheet" href="/styles/header.css" />
+		<!-- endbuild -->
+
+        <!-- {INITIAL_CSS} -->
+	</head>
+	<body>
+		<!--[if lt IE 10]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<script type="text/javascript">
+			var initial_state = <!-- {INITIAL_DATA} --> || {};
+		</script>
+        <div id="app"><!-- {CONTENT} --></div>
+
+		<script src="//localhost:35729/livereload.js"></script>
+
+		<script>
+			var Insight = App = {
+				'api_url': '/_api'
+			};
+		</script>
+
+		<script type="text/javascript" data-main="/react/_app.js" src="/scripts/vendor/require.js"></script>
+
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<!--<script>-->
+			<!--(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=-->
+			<!--function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;-->
+			<!--e=o.createElement(i);r=o.getElementsByTagName(i)[0];-->
+			<!--e.src='//www.google-analytics.com/analytics.js';-->
+			<!--r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));-->
+			<!--ga('create','UA-XXXXX-X');ga('send','pageview');-->
+		<!--</script>-->
+</body>
+</html>

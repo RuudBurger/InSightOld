@@ -1,0 +1,174 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/Ruud/Localhost/Insight',
+5 verbose install   [ 'bluebird',
+5 verbose install     'body-parser',
+5 verbose install     'bookshelf',
+5 verbose install     'clean-css',
+5 verbose install     'compression',
+5 verbose install     'cors',
+5 verbose install     'express',
+5 verbose install     'express-jwt',
+5 verbose install     'hiredis',
+5 verbose install     'http-request',
+5 verbose install     'jsonwebtoken',
+5 verbose install     'knex',
+5 verbose install     'lodash',
+5 verbose install     'mysql',
+5 verbose install     'password-hash-and-salt',
+5 verbose install     'react',
+5 verbose install     'react-router',
+5 verbose install     'redis',
+5 verbose install     'request',
+5 verbose install     'requirejs',
+5 verbose install     'settings',
+5 verbose install     'validator',
+5 verbose install     'winston',
+5 verbose install     'grunt',
+5 verbose install     'grunt-autoprefixer',
+5 verbose install     'grunt-concurrent',
+5 verbose install     'grunt-contrib-concat',
+5 verbose install     'grunt-contrib-cssmin',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-less',
+5 verbose install     'grunt-contrib-sass',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-lodash',
+5 verbose install     'grunt-nodemon',
+5 verbose install     'grunt-react',
+5 verbose install     'jshint-stylish',
+5 verbose install     'lodash-cli' ] ]
+6 info preinstall inshort@
+7 warn package.json moviedb@0.1.9 No repository field.
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping bluebird@~2.3.11 /Users/Ruud/Localhost/Insight
+10 verbose already installed skipping body-parser@~1.9.2 /Users/Ruud/Localhost/Insight
+11 verbose already installed skipping bookshelf@~0.7.9 /Users/Ruud/Localhost/Insight
+12 verbose already installed skipping clean-css@~2.2.17 /Users/Ruud/Localhost/Insight
+13 verbose already installed skipping compression@~1.2.0 /Users/Ruud/Localhost/Insight
+14 verbose already installed skipping cors@~2.5.2 /Users/Ruud/Localhost/Insight
+15 verbose already installed skipping express@~4.10.2 /Users/Ruud/Localhost/Insight
+16 verbose already installed skipping express-jwt@~0.5.0 /Users/Ruud/Localhost/Insight
+17 verbose already installed skipping hiredis@~ 0.1.17 /Users/Ruud/Localhost/Insight
+18 verbose already installed skipping http-request@^0.7.0 /Users/Ruud/Localhost/Insight
+19 verbose already installed skipping jsonwebtoken@~ 1.1.2 /Users/Ruud/Localhost/Insight
+20 verbose already installed skipping knex@~ 0.7.3 /Users/Ruud/Localhost/Insight
+21 verbose already installed skipping lodash@~ 2.4.1 /Users/Ruud/Localhost/Insight
+22 verbose already installed skipping mysql@~2.5.3 /Users/Ruud/Localhost/Insight
+23 verbose already installed skipping password-hash-and-salt@~ 0.1.2 /Users/Ruud/Localhost/Insight
+24 verbose already installed skipping react@^0.12.1 /Users/Ruud/Localhost/Insight
+25 verbose already installed skipping react-router@^0.11.1 /Users/Ruud/Localhost/Insight
+26 verbose already installed skipping redis@~0.12.1 /Users/Ruud/Localhost/Insight
+27 verbose already installed skipping request@~2.48.0 /Users/Ruud/Localhost/Insight
+28 verbose already installed skipping requirejs@^2.1.15 /Users/Ruud/Localhost/Insight
+29 verbose already installed skipping settings@~ 0.1.1 /Users/Ruud/Localhost/Insight
+30 verbose already installed skipping validator@~3.22.1 /Users/Ruud/Localhost/Insight
+31 verbose already installed skipping winston@~0.8.3 /Users/Ruud/Localhost/Insight
+32 verbose already installed skipping grunt@~0.4.5 /Users/Ruud/Localhost/Insight
+33 verbose already installed skipping grunt-autoprefixer@^2.0.0 /Users/Ruud/Localhost/Insight
+34 verbose already installed skipping grunt-concurrent@~1.0.0 /Users/Ruud/Localhost/Insight
+35 verbose already installed skipping grunt-contrib-concat@^0.5.0 /Users/Ruud/Localhost/Insight
+36 verbose already installed skipping grunt-contrib-cssmin@~0.10.0 /Users/Ruud/Localhost/Insight
+37 verbose already installed skipping grunt-contrib-jshint@~0.10.0 /Users/Ruud/Localhost/Insight
+38 verbose already installed skipping grunt-contrib-less@~0.12.0 /Users/Ruud/Localhost/Insight
+39 verbose already installed skipping grunt-contrib-sass@^0.8.1 /Users/Ruud/Localhost/Insight
+40 verbose already installed skipping grunt-contrib-uglify@~0.6.0 /Users/Ruud/Localhost/Insight
+41 verbose already installed skipping grunt-contrib-watch@~0.6.1 /Users/Ruud/Localhost/Insight
+42 verbose already installed skipping grunt-lodash@~0.3.0 /Users/Ruud/Localhost/Insight
+43 verbose already installed skipping grunt-nodemon@~0.3.0 /Users/Ruud/Localhost/Insight
+44 verbose already installed skipping grunt-react@^0.10.0 /Users/Ruud/Localhost/Insight
+45 verbose already installed skipping jshint-stylish@^1.0.0 /Users/Ruud/Localhost/Insight
+46 verbose already installed skipping lodash-cli@~2.4.2 /Users/Ruud/Localhost/Insight
+47 silly resolved []
+48 info build /Users/Ruud/Localhost/Insight
+49 verbose linkStuff [ false, false, false, '/Users/Ruud/Localhost' ]
+50 info linkStuff inshort@
+51 verbose linkBins inshort@
+52 verbose linkMans inshort@
+53 verbose rebuildBundles inshort@
+54 verbose rebuildBundles [ '.DS_Store',
+54 verbose rebuildBundles   '.bin',
+54 verbose rebuildBundles   'bluebird',
+54 verbose rebuildBundles   'body-parser',
+54 verbose rebuildBundles   'bookshelf',
+54 verbose rebuildBundles   'canvas',
+54 verbose rebuildBundles   'cheerio',
+54 verbose rebuildBundles   'clean-css',
+54 verbose rebuildBundles   'color-thief',
+54 verbose rebuildBundles   'compression',
+54 verbose rebuildBundles   'cors',
+54 verbose rebuildBundles   'express',
+54 verbose rebuildBundles   'express-jwt',
+54 verbose rebuildBundles   'grunt',
+54 verbose rebuildBundles   'grunt-autoprefixer',
+54 verbose rebuildBundles   'grunt-bower-install',
+54 verbose rebuildBundles   'grunt-concurrent',
+54 verbose rebuildBundles   'grunt-contrib-clean',
+54 verbose rebuildBundles   'grunt-contrib-concat',
+54 verbose rebuildBundles   'grunt-contrib-cssmin',
+54 verbose rebuildBundles   'grunt-contrib-htmlmin',
+54 verbose rebuildBundles   'grunt-contrib-jshint',
+54 verbose rebuildBundles   'grunt-contrib-less',
+54 verbose rebuildBundles   'grunt-contrib-sass',
+54 verbose rebuildBundles   'grunt-contrib-uglify',
+54 verbose rebuildBundles   'grunt-contrib-watch',
+54 verbose rebuildBundles   'grunt-lodash',
+54 verbose rebuildBundles   'grunt-nodemon',
+54 verbose rebuildBundles   'grunt-react',
+54 verbose rebuildBundles   'hiredis',
+54 verbose rebuildBundles   'http-request',
+54 verbose rebuildBundles   'jshint-stylish',
+54 verbose rebuildBundles   'jsonwebtoken',
+54 verbose rebuildBundles   'knex',
+54 verbose rebuildBundles   'lodash',
+54 verbose rebuildBundles   'lodash-cli',
+54 verbose rebuildBundles   'moviedb',
+54 verbose rebuildBundles   'mysql',
+54 verbose rebuildBundles   'onecolor',
+54 verbose rebuildBundles   'password-hash-and-salt',
+54 verbose rebuildBundles   'react',
+54 verbose rebuildBundles   'react-router',
+54 verbose rebuildBundles   'redis',
+54 verbose rebuildBundles   'request',
+54 verbose rebuildBundles   'requirejs',
+54 verbose rebuildBundles   'settings',
+54 verbose rebuildBundles   'socket.io',
+54 verbose rebuildBundles   'socketio-jwt',
+54 verbose rebuildBundles   'validator',
+54 verbose rebuildBundles   'winston' ]
+55 verbose rebuild bundle /Users/Ruud/Localhost/Insight/node_modules/canvas
+56 info build /Users/Ruud/Localhost/Insight/node_modules/canvas
+57 info preinstall canvas@1.1.6
+58 verbose linkStuff [ false,
+58 verbose linkStuff   false,
+58 verbose linkStuff   false,
+58 verbose linkStuff   '/Users/Ruud/Localhost/Insight/node_modules' ]
+59 info linkStuff canvas@1.1.6
+60 verbose linkBins canvas@1.1.6
+61 verbose linkMans canvas@1.1.6
+62 verbose rebuildBundles canvas@1.1.6
+63 verbose rebuildBundles [ 'nan' ]
+64 info install canvas@1.1.6
+65 verbose unsafe-perm in lifecycle false
+66 info canvas@1.1.6 Failed to exec install script
+67 error canvas@1.1.6 install: `node-gyp rebuild`
+67 error Exit status 1
+68 error Failed at the canvas@1.1.6 install script.
+68 error This is most likely a problem with the canvas package,
+68 error not with npm itself.
+68 error Tell the author that this fails on your system:
+68 error     node-gyp rebuild
+68 error You can get their info via:
+68 error     npm owner ls canvas
+68 error There is likely additional logging output above.
+69 error System Darwin 14.0.0
+70 error command "node" "/usr/local/bin/npm" "install"
+71 error cwd /Users/Ruud/Localhost/Insight
+72 error node -v v0.10.35
+73 error npm -v 1.4.28
+74 error code ELIFECYCLE
+75 verbose exit [ 1, true ]
